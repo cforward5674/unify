@@ -1,7 +1,8 @@
 body {
+    margin-top: 5%;
     height: 100%;
     background-color: black;
-    -webkit-box-sizing: border-box;
+   
     box-sizing: border-box;
 }
 
@@ -13,6 +14,26 @@ html {
     margin-top: 15%;
     margin-bottom: 15%;
     align-content: center;
+}
+
+.carousel-control-prev {
+    margin: 30% 0;
+}
+
+p {
+    float: right;
+    color: rgb(51, 49, 49);
+}
+
+#button {
+    float: left;
+}
+
+#jsbtn {
+    
+    background-color: black;
+    color: rgb(51, 49, 49);
+    border: none;
 }
 
 img {
@@ -37,6 +58,33 @@ img {
 .carousel-inner {
     height: 100%;
 }
+
+/* div:-webkit-full-screen {
+    width: 100% !important;
+  }
+  div:-moz-full-screen {
+    width: 100% !important;
+  }
+  div:-ms-fullscreen {
+    width: 100% !important;
+  }
+  div:fullscreen {
+    width: 100% !important;
+  }
+  
+  /* While in fullscreen, hide any children with class 'tohide' */
+  /* :-webkit-full-screen .tohide {
+    display: none;
+  }
+  :-moz-full-screen .tohide {
+    display: none;
+  }
+  :-ms-fullscreen .tohide {
+    display: none;
+  }
+  :fullscreen .tohide {
+    display: none;
+  } */ 
 
 @media (max-width: 767px) {
     .block {

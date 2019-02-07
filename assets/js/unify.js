@@ -1,4 +1,4 @@
-var elem = document.getElementById("carouselExampleInterval");
+var elem = document.body;
 function openFullscreen() {
   if (elem.requestFullscreen) {
     elem.requestFullscreen();
